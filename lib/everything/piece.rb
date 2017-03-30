@@ -15,6 +15,10 @@ class Everything
     end
 
     def title
+      #TODO: Should we make this search for any number of #s?
+      #TODO: What about subtitles too? In fact, some of the poems already
+      #violate this convention of a single title and then the content after a
+      #line...
       @title ||= partitioned_content.first.sub('# ', '')
     end
 
