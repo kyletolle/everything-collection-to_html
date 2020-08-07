@@ -3,7 +3,9 @@ GEM
   specs:
     dotenv (2.0.0)
     fastenv (0.0.2)
-    kramdown (1.6.0)
+    kramdown (2.3.0)
+      rexml
+    rexml (3.2.4)
     tilt (2.0.1)
 
 PLATFORMS
